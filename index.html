@@ -6,14 +6,24 @@
         padding-top: 40px;
         padding-bottom: 40px;
         background-color: rgb(240, 224, 8);
+        display: flex;
+        justify-content: center;
       }
 
-      * {
-        border: thin red solid;
-      }
-      
-      .name{
+      .name {
         color:black;
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+
+      .socials {
+        display: flex;
+        justify-content: space-around;
       }
 
       .socials a {
@@ -25,6 +35,7 @@
         background-color:rgb(28, 204, 28);
         display: flex;
         align-items: center;
+        padding: 5px;
       }
 
       .link a {
@@ -37,7 +48,7 @@
     .banner-image {
       width: 128px;
       height: 128px;
-      object-fit: cover;
+      object-fit:  cover;
       border-radius: 128px;
     }
 
@@ -53,14 +64,11 @@
       flex-direction: column;
       gap: 30px;
       max-width: 640px;
-    }
-
-    
+      flex-grow: 1;
+    }    
     </style>
+  </head>
 
-
-
-  </head>    
   <body>
     <div class="items">
       <div class="banner">

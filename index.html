@@ -1,65 +1,128 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: rgb(240, 224, 8);
+      }
 
-<body>
-  <div class="banner">
-    <img src="IMG_1561 (1).PNG" alt="Gary Crump pic">
-  </div>
+      * {
+        border: thin red solid;
+      }
+      
+      .name{
+        color:black;
+      }
 
-  <div class="name">
-    Gary Crump
-  </div>
+      .socials a {
+        color:black; 
+        text-decoration: none;
+      }
 
-  <div class="socials">
-    <a href="https://www.linkedin.com/in/garycrump/" target="_blank">
-      LinkedIn
-    </a>
-  
-    <a href="https://www.instagram.com/gcrump55/" target="_blank">
-      Instagram
-    </a>
+      .link {
+        background-color:rgb(28, 204, 28);
+        display: flex;
+        align-items: center;
+      }
 
-    <a href="https://twitter.com/garcrump" target="_blank">
-      Twitter
-    </a>
+      .link a {
+        background-color:rgb(28, 204, 28);
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
 
-    <a href="https://www.facebook.com/gary.crump.1257" target="_blank">
-      Facebook
-    </a>
-  </div>
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
 
-  <div class="link">
-    <img src="6-x-4-in-10.webp">
+    .Thumbnails {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 48px;
+    }
 
-    <a target="_blank" href="https://blockclubchicago.org/2022/11/28/at-the-gym-pod-in-fulton-market-members-can-work-out-in-privacy-in-their-own-shipping-container/">Private Workouts With Gym Pods - Melody Mercado
-    </a>
-  </div>  
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+    }
 
-  <div class="link">
-    <img src="033935_360W.png">
-
-    <a target="_blank" href="https://www.nytimes.com/1985/09/29/magazine/what-abstract-art-achieved.html">Abstract Art - Hilton Kramer
-    </a>
-  </div>
-
-  <div class="link">
-    <img src="article_full@2x.jpg">
     
-    <a target="_blank" href="https://www.backstage.com/magazine/article/become-dancer-4892/">Become a Dancer - Victoria Dombroski
-    </a>
-  </div>
+    </style>
+
+
+
+  </head>    
+  <body>
+    <div class="items">
+      <div class="banner">
+        <img src="/Thumbnails/IMG_1561 (1).PNG" alt="Gary Crump pic" class="banner-image">
+      </div>
+
+      <div class="name">
+      Gary Crump
+      </div>
+
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/garycrump/" target="_blank">
+        LinkedIn
+        </a>
   
-  <div class="link">
-    <img src="CoS-HERO_Naz-1200x675-1.webp">
+        <a href="https://www.instagram.com/gcrump55/" target="_blank">
+        Instagram
+        </a>
 
-    <a target="_blank" href="https://consequence.net/2022/09/nas-best-songs-list/">Nas 10 Best Songs - Will Hagle and Sheldon Pierce
-    </a>
-  </div>
+        <a href="https://twitter.com/garcrump" target="_blank">
+        Twitter
+        </a>
 
-  <div class="link">
-    <img src="investing-for-beginners.webp">
+        <a href="https://www.facebook.com/gary.crump.1257" target="_blank">
+        Facebook
+        </a>
+      </div>
 
-    <a target="_blank" href="https://time.com/personal-finance/article/best-investments-for-beginners/">9 Best Investments For Beginners - Catherine Hiles
-    </a>
-  </div>
+      <div class="link">
+        <img src="/Thumbnails/6-x-4-in-10.webp" alt="Gym Pods" class="Thumbnails">
 
-</body>
+        <a target="_blank" href="https://blockclubchicago.org/2022/11/28/at-the-gym-pod-in-fulton-market-members-can-work-out-in-privacy-in-their-own-shipping-container/">Private Workouts With Gym Pods - Melody Mercado
+        </a>
+      </div>  
+
+      <div class="link">
+        <img src="/Thumbnails/033935_360W.png" alt="Abstract Art" class="Thumbnails">
+
+        <a target="_blank" href="https://www.nytimes.com/1985/09/29/magazine/what-abstract-art-achieved.html">Abstract Art - Hilton Kramer
+        </a>
+      </div>
+
+      <div class="link">
+        <img src="/Thumbnails/article_full@2x.jpg" alt="Dancer" class="Thumbnails">
+    
+        <a target="_blank" href="https://www.backstage.com/magazine/article/become-dancer-4892/">Become a Dancer - Victoria Dombroski
+        </a>
+      </div>
+  
+      <div class="link">
+        <img src="/Thumbnails/CoS-HERO_Naz-1200x675-1.webp" alt="Nas" class=" Thumbnails">
+
+        <a target="_blank" href="https://consequence.net/2022/09/nas-best-songs-list/">Nas 10 Best Songs - Will Hagle and Sheldon Pierce
+        </a>
+      </div>
+
+      <div class="link">
+        <img src="/Thumbnails/investing-for-beginners.webp" alt="Money Tree" class="Thumbnails">
+
+        <a target="_blank" href="https://time.com/personal-finance/article/best-investments-for-beginners/">9 Best Investments For Beginners - Catherine Hiles
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
